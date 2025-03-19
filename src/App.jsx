@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/login" element={<UpdateActivityPage />} />
+        <Route path="/update/:id" element={<UpdateActivityPage />} />
         <Route path="/create" element={<CreateActivityPage />} />
       </Routes>
     </Router>

@@ -42,7 +42,7 @@ export default function CreateActivityPage() {
 
           <button
             type="submit"
-            className="w-full bg-black text-white py-2 rounded-md font-semibold flex justify-center items-center gap-2"
+            className="w-full bg-black text-white py-2 rounded-md font-semibold flex justify-center items-center gap-2 cursor-pointer"
             disabled={loading}
           >
             {loading ? "Loading..." : "Tambah"}
